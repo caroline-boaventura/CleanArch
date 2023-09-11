@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/usr/.nuget/packages/": {}
+    "C:\\Users\\carol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/usr/Documentos/C#/Estudos Clean Architecture/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\carol\\Documents\\Estudos\\CleanArch\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
       "projectName": "CleanArchMvc.Domain",
-      "projectPath": "/home/usr/Documentos/C#/Estudos Clean Architecture/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
-      "packagesPath": "/home/usr/.nuget/packages/",
-      "outputPath": "/home/usr/Documentos/C#/Estudos Clean Architecture/CleanArchMvc.Domain/obj/",
+      "projectPath": "c:\\Users\\carol\\Documents\\Estudos\\CleanArch\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
+      "packagesPath": "C:\\Users\\carol\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\carol\\Documents\\Estudos\\CleanArch\\CleanArchMvc.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/usr/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\carol\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,16 +49,31 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
